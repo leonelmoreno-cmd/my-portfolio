@@ -16,6 +16,7 @@ const Home = () => {
       <div className="introduction-profile-background">
         <div className="content">
           <Introduction />
+          <HappyClients />
           <Profile />
         </div>
       </div>
@@ -32,7 +33,6 @@ const Home = () => {
       <div className="bg-soft-white">
         <Profession />
       </div>
-      <HappyClients />
       <Testimonial />
       <Contact />
     </div>
