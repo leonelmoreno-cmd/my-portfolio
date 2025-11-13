@@ -16,7 +16,6 @@ const Home = () => {
       <div className="introduction-profile-background">
         <div className="content">
           <Introduction />
-          <HappyClients />
           <Profile />
         </div>
       </div>
@@ -34,6 +33,7 @@ const Home = () => {
         <Profession />
       </div>
       <Testimonial />
+      <HappyClients />
       <Contact />
     </div>
   );
