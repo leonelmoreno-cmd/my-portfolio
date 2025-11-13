@@ -1,6 +1,23 @@
 import person from "../../assets/images/person.png";
 import "./introduction.css";
 import InformationSummary from "./InformationSummary";
+const informationSummaryData = [
+  {
+    id: 1,
+    title: "Experience",
+    description: "15 Y.",
+  },
+  {
+    id: 2,
+    title: "Projects Completed",
+    description: "250+",
+  },
+  {
+    id: 3,
+    title: "Happy Clients",
+    description: "58",
+  },
+];
 
 // Information summary data
 const Introduction = () => {
@@ -54,4 +71,5 @@ const Introduction = () => {
 };
 
 export default Introduction;
+
 
