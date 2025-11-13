@@ -3,24 +3,6 @@ import "./introduction.css";
 import InformationSummary from "./InformationSummary";
 
 // Information summary data
-const informationSummaryData = [
-  {
-    id: 1,
-    title: "Experience",
-    description: "15 Y.",
-  },
-  {
-    id: 2,
-    title: "Projects Completed",
-    description: "250+",
-  },
-  {
-    id: 3,
-    title: "Happy Clients",
-    description: "58",
-  },
-];
-
 const Introduction = () => {
   return (
     <div
@@ -32,13 +14,13 @@ const Introduction = () => {
           <p className="text-3xl xxs:text-4xl sm:max-xl:text-5xl xl:text-6xl font-semibold w-full">
             Hello, I’m
             <span className="text-nowrap shrink-0 inline-block w-full">
-              Brooklyn Gilbert
+              Leonel Moreno
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            I'm a Freelance <span className="bg-highlight">UI/UX Designer</span>{" "}
+            I'm a Freelance <span className="bg-highlight">Data Scientist</span>{" "}
             and <span className="bg-highlight"> Developer</span> based in
-            London, England. I strives to build immersive and beautiful web
+            Latam. I strives to build immersive and beautiful web
             applications through carefully crafted code and user-centric design.
           </p>
           <p className="text-center lg:text-start">
@@ -72,3 +54,4 @@ const Introduction = () => {
 };
 
 export default Introduction;
+
